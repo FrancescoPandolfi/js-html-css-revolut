@@ -67,17 +67,14 @@ a.download:hover {
 .arrow_down {
   color: #8b959e;
   font-size: 10px;
-  animation: rotate .3s forwards;
-  /* transform: rotate(180deg); */
+  animation: rotate .4s forwards;
+  color: #191c1f;
 }
 
 @keyframes rotate {
   0% {}
   100% {transform: rotate(180deg);}
-
 }
-
-
 
 
 /* SUBMENU */
