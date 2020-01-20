@@ -16,7 +16,7 @@ $(document).ready(function () {
     $('.dropdown_parent > a').removeClass('link_active');
   });
 
-  $('.dropdown_parent').click(function (event) {
+  $('.dropdown_parent').click(function () {
     event.stopPropagation();
   });
 
